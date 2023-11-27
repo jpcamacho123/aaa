@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/aaa/about.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Ilocos Norte</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/aaa/index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="/aaa/food.html">FOOD</a>
+                </li>
+                <li>
+                    <a href="" class="active">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>St. Williams Cathedral</h1>
+    </div>
+
+    <div>
+        <p>
+            Saint William's Cathedral, also known as the Laoag Cathedral, is a prominent religious landmark located in Laoag City, Ilocos Norte, Philippines. The cathedral has a rich history dating back to the Spanish colonial era. It was first constructed in 1612 by Augustinian friars and underwent several renovations over the centuries. The current structure is a result of the numerous enhancements and expansions made to the original building. The cathedral complex includes the famous Sinking Bell Tower.  Its architectural beauty, cultural significance, and the presence of the Sinking Bell Tower make it a must-visit attraction for those interested in the country's history and heritage.
+        </p>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/aaa/food.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Ilocos Norte</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/aaa/index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="" class="active">FOOD</a>
+                </li>
+                <li>
+                    <a href="/aaa/about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>EMPANADA</h1>
+    </div>
+
+    <div>
+        <p>
+            Empanada in Laoag City is a well-known and beloved local delicacy that has gained popularity not only in the region but also throughout the Philippines. Laoag City is particularly famous for its unique version of empanada, which has become a must-try for both locals and tourists. What makes street food in the Philippines, including Laoag City's empanada, interesting is the diverse range of flavors, textures, and cultural influences. Exploring these street foods is not just a culinary adventure but also an immersion into the dynamic and delicious tapestry of Filipino street food culture.
+        </p>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>

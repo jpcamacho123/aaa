@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/aaa/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Ilocos Norte</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">HOME</a>
+                </li>
+                <li>
+                    <a href="/aaa/food.html">FOOD</a>
+                </li>
+                <li>
+                    <a href="/aaa/about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>LAOAG CITY</h1>
+    </div>
+
+    <div>
+        <p>
+            Join a night walking tour and explore the must-see attractions in Laoag, which is called “The Sunshine City”
+            Admire the beauty of Saint William's Cathedral, one of the landmarks of Spanish colony in the 
+            Philippines Pass by Aurora park, walk around its spacious, green park-yard area Learn to 
+            cook empanada, an authentic Filipino food, it will be an unforgettable experience on 
+            your journey to Laoag! Laoag City is the capital of the province of Ilocos Norte, which is located in the Ilocos Region of the Philippines. It is the northernmost city in the country and serves as the political, commercial, and industrial center of the province. Laoag City offer a diverse and enchanting array of experiences that cater to a wide range of interests, from history and culture to adventure and relaxation.
+        </p>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
